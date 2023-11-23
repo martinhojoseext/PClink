@@ -1,1 +1,1 @@
-# PClink
+# PClink USB Mode
