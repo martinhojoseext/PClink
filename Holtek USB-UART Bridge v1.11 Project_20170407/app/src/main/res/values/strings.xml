@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Holtek USB-UART Bridge</string>
+    <string name="title_activity_set_com">setComActivity</string>
+    <string-array name="spinner_rates">
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>1700000</item>
+        <item>2300000</item>
+        <item>3400000</item>
+    </string-array>
+    <string-array name="spinner_stops">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="spinner_datas">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="spinner_pritys">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+    </string-array>
+</resources>

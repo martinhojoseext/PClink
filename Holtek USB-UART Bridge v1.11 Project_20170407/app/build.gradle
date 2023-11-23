@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.holtek.usb_cdc_demo"
+    compileSdkVersion 30  //already defined
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.holtek.usb_cdc_demo"
+        minSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '29.0.2'
+    ndkVersion '21.4.7075529'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation "com.android.support:appcompat-v7:$support_version"
+    implementation "com.android.support:design:$support_version"
+}
